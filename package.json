@@ -1,22 +1,26 @@
 {
-  "name": "greenvault-netlify",
-  "version": "1.0.0",
+  "name": "greenvault-ts-starter",
+  "version": "0.0.0",
   "private": true,
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "tsc -p tsconfig.json && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
+    "framer-motion": "^10.12.16",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "recharts": "^2.10.0"
+    "recharts": "^2.6.2"
   },
   "devDependencies": {
-    "@vitejs/plugin-react": "^4.1.0",
-    "autoprefixer": "^10.4.20",
-    "postcss": "^8.4.38",
-    "tailwindcss": "^3.4.15",
-    "vite": "^5.4.10"
+    "@types/react": "^18.2.21",
+    "@types/react-dom": "^18.2.7",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.4.2",
+    "typescript": "^5.9.3",
+    "vite": "^5.0.0",
+    "@vitejs/plugin-react": "^4.0.0"
   }
 }
